@@ -3,6 +3,10 @@ package spring.core.entity;
 import java.sql.SQLNonTransientConnectionException;
 
 public class Employee {
+
+
+
+
 	private int Id;
 	private String name;
 	private String gender;
