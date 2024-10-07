@@ -22,4 +22,10 @@
 	<constructor-arg name="name" value="Abishek"/>
 	<constructor-arg name="gender" value="male"/>
 	</bean>
+
+	<bean id="emp2" class="spring.core.entity.Employee">
+		<constructor-arg name="Id" value="103" />
+		<constructor-arg name="name" value="Anshit"/>
+		<constructor-arg name="gender" value="male"/>
+	</bean>
 </beans>
