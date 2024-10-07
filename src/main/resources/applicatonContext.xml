@@ -11,7 +11,12 @@
 	<property name="name" value="Aman"/>
 	<property name="gender" value="Male"/>
 	</bean>
-	
+
+<!--	<bean id="emp1" class="spring.core.entity.Employee" >-->
+<!--		<property name="Id" value="102"/>-->
+<!--		<property name="name" value="Anshit"/>-->
+<!--		<property name="gender" value="Male"/>-->
+<!--	</bean>-->
 	<bean id="emp1" class="spring.core.entity.Employee">
 	<constructor-arg name="Id" value="102" />
 	<constructor-arg name="name" value="Abishek"/>
